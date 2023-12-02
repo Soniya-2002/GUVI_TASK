@@ -1,0 +1,33 @@
+
+    body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20% 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4285f4;
+            color: #fff;
+            border-radius: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .button.signup {
+            background-color: #0f9d58;
+        }
